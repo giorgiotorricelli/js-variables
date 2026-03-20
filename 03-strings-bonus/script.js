@@ -32,5 +32,19 @@ console.log(cityNameConcat); // Output: "New York City"
 const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
 
+// 6. Allenamento personale
+
+const animale = "volpe"
+const fruttoConGliAcini = shoppingList.slice(-3)
+const proverbio = `La ${animale} non arriva all'${fruttoConGliAcini}`
+console.log(proverbio)
+
+
+let fraseSbagliata = "Roma è spesso chiamata la piccola pera"
+const marlene = shoppingList.substring(0, 3).concat("a")
+let fraseGiusta = fraseSbagliata.replace("Roma", city)
+const fineFraseGiusta = `la grande ${marlene}`
+fraseGiusta = fraseGiusta.replace("la piccola pera", fineFraseGiusta)
+console.log(fraseGiusta)
 
 
