@@ -22,10 +22,15 @@ console.log(cityReplaced); // Output:  "New Delhi"
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = city.concat(" ", cityName);
+/* avevo usato erroneamente 
+const cityNameConcat = city.concat(" ", cityName)*/
+const cityNameConcat = `${city} ${cityName}`;
 console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
+
+
+
